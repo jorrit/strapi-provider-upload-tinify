@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "extends": "@strapi/typescript-utils/tsconfigs/server",
+
+  "compilerOptions": {
+    "outDir": "lib",
+    "rootDir": "src",
+    "importHelpers": true,
+    "incremental": false
+  },
+
+  "include": [
+    "**/*.ts"
+  ],
+
+  "exclude": [
+    "node_modules/",
+    "lib/",
+    "**/*.test.ts"
+  ]
+}
