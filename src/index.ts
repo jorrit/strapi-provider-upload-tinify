@@ -55,4 +55,4 @@ const provider: UploadProvider<TinifyOptions> = {
   },
 };
 
-export default provider;
+export default provider.init;

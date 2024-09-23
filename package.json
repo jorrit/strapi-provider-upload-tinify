@@ -11,7 +11,7 @@
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib",
+  "main": "index.js",
   "strapi": {
     "name": "strapi-provider-upload-tinify",
     "displayName": "Compress uploaded images using Tinify",
@@ -41,6 +41,7 @@
     "typescript": "^5.2.2"
   },
   "files": [
+    "index.js",
     "lib"
   ]
 }
