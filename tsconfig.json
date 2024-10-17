@@ -7,7 +7,8 @@
     "outDir": "lib",
     "rootDir": "src",
     "importHelpers": true,
-    "incremental": false
+    "incremental": false,
+    "tsBuildInfoFile": null
   },
 
   "include": [
